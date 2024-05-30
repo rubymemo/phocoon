@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/myearnings/myearnings",
+    "pages/channel/channel",
+    "pages/promotion/promotion"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "合作游戏"
+      },
+      {
+        "pagePath": "pages/channel/channel",
+        "text": "渠道管理"
+      },
+      {
+        "pagePath": "pages/promotion/promotion",
+        "text": "推广数据"
+      },
+      {
+        "pagePath": "pages/myearnings/myearnings",
+        "text": "我的收益"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

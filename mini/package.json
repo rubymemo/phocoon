@@ -1,0 +1,18 @@
+{
+    "id": "zhq-table",
+    "name": "zhq-table",
+    "displayName": "zhq-table",
+    "version": "1.0.0",
+    "description": "支持微信小程序 h5 app固定右侧表头,顶部表头",
+    "keywords": [
+        "table",
+        "固定表头",
+        "固定首列"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

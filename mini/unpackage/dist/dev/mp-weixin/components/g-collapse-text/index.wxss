@@ -1,0 +1,46 @@
+/* 水平间距 */
+/* 水平间距 */
+button.data-v-d7050037 {
+  border-radius: 25px;
+  border: 1px solid #e3e3e3;
+  background: transparent;
+  height: 90rpx;
+  line-height: 90rpx;
+  width: 207px;
+  font-size: 14px;
+}
+button.data-v-d7050037::after {
+  border: none;
+}
+button.primary.data-v-d7050037 {
+  background-color: #DFF7E2;
+  color: #093030;
+  border-radius: 25px;
+  border: none;
+}
+button.primary.data-v-d7050037:active {
+  opacity: 0.8;
+  background-color: #00c596;
+}
+button.primary.orange.data-v-d7050037 {
+  background-color: #FFF9EA;
+  color: #FF9A43;
+}
+button[disabled].data-v-d7050037 {
+  background-color: #E9E9E9;
+  color: #093030;
+  border-radius: 25px;
+  border: none;
+}
+button[disabled].data-v-d7050037:active {
+  opacity: #E9E9E9;
+}
+page.data-v-d7050037 {
+  color: #093030;
+}
+.is-input-border.is-focused.data-v-d7050037 {
+  border-color: #00D09E !important;
+}
+.uni-forms-item__label.data-v-d7050037 {
+  color: #212121;
+}

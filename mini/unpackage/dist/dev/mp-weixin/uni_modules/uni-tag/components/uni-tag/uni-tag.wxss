@@ -1,0 +1,145 @@
+/* 水平间距 */
+/* 水平间距 */
+button {
+  border-radius: 25px;
+  border: 1px solid #e3e3e3;
+  background: transparent;
+  height: 90rpx;
+  line-height: 90rpx;
+  width: 207px;
+  font-size: 14px;
+}
+button::after {
+  border: none;
+}
+button.primary {
+  background-color: #DFF7E2;
+  color: #093030;
+  border-radius: 25px;
+  border: none;
+}
+button.primary:active {
+  opacity: 0.8;
+  background-color: #00c596;
+}
+button.primary.orange {
+  background-color: #FFF9EA;
+  color: #FF9A43;
+}
+button[disabled] {
+  background-color: #E9E9E9;
+  color: #093030;
+  border-radius: 25px;
+  border: none;
+}
+button[disabled]:active {
+  opacity: #E9E9E9;
+}
+page {
+  color: #093030;
+}
+.is-input-border.is-focused {
+  border-color: #00D09E !important;
+}
+.uni-forms-item__label {
+  color: #212121;
+}
+.uni-tag {
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 200;
+  padding: 4px 7px;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #8f939c;
+  border-width: 1rpx;
+  border-style: solid;
+  border-color: #8f939c;
+}
+.uni-tag--default {
+  font-size: 12px;
+}
+.uni-tag--default--inverted {
+  color: #8f939c;
+  border-color: #8f939c;
+}
+.uni-tag--small {
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+.uni-tag--mini {
+  padding: 1px 3px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+.uni-tag--primary {
+  background-color: #2979ff;
+  border-color: #2979ff;
+  color: #fff;
+}
+.uni-tag--success {
+  color: #fff;
+  background-color: #18bc37;
+  border-color: #18bc37;
+}
+.uni-tag--warning {
+  color: #fff;
+  background-color: #f3a73f;
+  border-color: #f3a73f;
+}
+.uni-tag--error {
+  color: #fff;
+  background-color: #e43d33;
+  border-color: #e43d33;
+}
+.uni-tag--primary--inverted {
+  color: #2979ff;
+  border-color: #2979ff;
+}
+.uni-tag--success--inverted {
+  color: #18bc37;
+  border-color: #18bc37;
+}
+.uni-tag--warning--inverted {
+  color: #f3a73f;
+  border-color: #f3a73f;
+}
+.uni-tag--error--inverted {
+  color: #e43d33;
+  border-color: #e43d33;
+}
+.uni-tag--inverted {
+  background-color: #fff;
+}
+.uni-tag--circle {
+  border-radius: 15px !important;
+}
+.uni-tag--mark {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+.uni-tag--disabled {
+  opacity: 0.5;
+}
+.uni-tag-text {
+  color: #fff;
+  font-size: 14px;
+}
+.uni-tag-text--primary {
+  color: #2979ff;
+}
+.uni-tag-text--success {
+  color: #18bc37;
+}
+.uni-tag-text--warning {
+  color: #f3a73f;
+}
+.uni-tag-text--error {
+  color: #e43d33;
+}
+.uni-tag-text--small {
+  font-size: 12px;
+}

@@ -1,0 +1,105 @@
+/* 水平间距 */
+/* 水平间距 */
+button {
+  border-radius: 25px;
+  border: 1px solid #e3e3e3;
+  background: transparent;
+  height: 90rpx;
+  line-height: 90rpx;
+  width: 207px;
+  font-size: 14px;
+}
+button::after {
+  border: none;
+}
+button.primary {
+  background-color: #DFF7E2;
+  color: #093030;
+  border-radius: 25px;
+  border: none;
+}
+button.primary:active {
+  opacity: 0.8;
+  background-color: #00c596;
+}
+button.primary.orange {
+  background-color: #FFF9EA;
+  color: #FF9A43;
+}
+button[disabled] {
+  background-color: #E9E9E9;
+  color: #093030;
+  border-radius: 25px;
+  border: none;
+}
+button[disabled]:active {
+  opacity: #E9E9E9;
+}
+page {
+  color: #093030;
+}
+.is-input-border.is-focused {
+  border-color: #00D09E !important;
+}
+.uni-forms-item__label {
+  color: #212121;
+}
+.uni-table-th {
+  padding: 12px 10px;
+  display: table-cell;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: bold;
+  color: #909399;
+  border-bottom: 1px #ebeef5 solid;
+}
+.uni-table-th-row {
+  display: flex;
+  flex-direction: row;
+}
+.table--border {
+  border-right: 1px #ebeef5 solid;
+}
+.uni-table-th-content {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.arrow {
+  display: block;
+  position: relative;
+  width: 10px;
+  height: 8px;
+  left: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.down {
+  top: 3px;
+}
+.down ::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 2px;
+  top: -5px;
+  transform: rotate(45deg);
+  background-color: #ccc;
+}
+.down.active ::after {
+  background-color: #2979ff;
+}
+.up ::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 2px;
+  top: 5px;
+  transform: rotate(45deg);
+  background-color: #ccc;
+}
+.up.active ::after {
+  background-color: #2979ff;
+}

@@ -1,0 +1,64 @@
+@import '@/uni_modules/uni-scss/variables.scss';
+$main-green: #00D09E;
+$light-green: #DFF7E2;
+
+$light-green-bg: #F1FFF3;
+$ocean-blue: #0068FF;
+$vivid-blue: #3299FF;
+$light-blue: #6DB6FE;
+
+$primary-color:  $main-green;
+$uni-border-color:#c8c7cc;
+$primary-color-01: #8a85ea2b;
+$font-primary-color: #212121;
+
+$letters-icon-color: #093030;
+$font-balck-color: $letters-icon-color;
+$uni-color-primary: $main-green;
+
+button 	{
+	border-radius: 25px;
+	border: 1px solid #e3e3e3;
+	background: transparent;
+	height: 90rpx;
+	line-height: 90rpx;
+	width: 207px;
+	font-size: 14px;
+	
+	&::after {
+		border: none;
+	}
+}
+button.primary {
+	background-color: $light-green;
+	// background-color: $primary-color;
+	color: $letters-icon-color;
+	border-radius: 25px;
+	border: none;
+	&:active {
+		opacity: 0.8;
+		background-color: #00c596;
+	}
+}
+button.primary.orange {
+	background-color: #FFF9EA;
+	color: #FF9A43;
+}
+button[disabled] {
+	background-color: #E9E9E9;
+	color: $letters-icon-color;
+	border-radius: 25px;
+	border: none;
+	&:active {
+		opacity: #E9E9E9;
+	}
+}
+page {
+	color: $font-balck-color;
+}
+.is-input-border.is-focused {
+	border-color: $main-green !important;
+} 
+.uni-forms-item__label {
+	color: $font-primary-color;
+}

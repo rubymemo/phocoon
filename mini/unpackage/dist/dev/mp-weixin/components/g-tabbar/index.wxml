@@ -1,0 +1,1 @@
+<view class="g-tabbar data-v-9f83b3d2"><view class="cover data-v-9f83b3d2"><view wx:for="{{a}}" wx:for-item="item" wx:key="c" class="tab data-v-9f83b3d2" bindtap="{{item.d}}"><image class="imgsize data-v-9f83b3d2" src="{{item.a}}" mode="widthFix"></image><view class="text data-v-9f83b3d2">{{item.b}}</view></view></view></view>

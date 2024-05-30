@@ -1,0 +1,59 @@
+/* 水平间距 */
+/* 水平间距 */
+button {
+  border-radius: 25px;
+  border: 1px solid #e3e3e3;
+  background: transparent;
+  height: 90rpx;
+  line-height: 90rpx;
+  width: 207px;
+  font-size: 14px;
+}
+button::after {
+  border: none;
+}
+button.primary {
+  background-color: #DFF7E2;
+  color: #093030;
+  border-radius: 25px;
+  border: none;
+}
+button.primary:active {
+  opacity: 0.8;
+  background-color: #00c596;
+}
+button.primary.orange {
+  background-color: #FFF9EA;
+  color: #FF9A43;
+}
+button[disabled] {
+  background-color: #E9E9E9;
+  color: #093030;
+  border-radius: 25px;
+  border: none;
+}
+button[disabled]:active {
+  opacity: #E9E9E9;
+}
+page {
+  color: #093030;
+}
+.is-input-border.is-focused {
+  border-color: #00D09E !important;
+}
+.uni-forms-item__label {
+  color: #212121;
+}
+.uni-table-td {
+  display: table-cell;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-bottom: 1px #EBEEF5 solid;
+  font-weight: 400;
+  color: #606266;
+  line-height: 23px;
+  box-sizing: border-box;
+}
+.table--border {
+  border-right: 1px #EBEEF5 solid;
+}

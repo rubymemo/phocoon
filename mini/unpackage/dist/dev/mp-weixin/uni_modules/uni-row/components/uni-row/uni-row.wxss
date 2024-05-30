@@ -1,0 +1,89 @@
+/* 水平间距 */
+/* 水平间距 */
+button {
+  border-radius: 25px;
+  border: 1px solid #e3e3e3;
+  background: transparent;
+  height: 90rpx;
+  line-height: 90rpx;
+  width: 207px;
+  font-size: 14px;
+}
+button::after {
+  border: none;
+}
+button.primary {
+  background-color: #DFF7E2;
+  color: #093030;
+  border-radius: 25px;
+  border: none;
+}
+button.primary:active {
+  opacity: 0.8;
+  background-color: #00c596;
+}
+button.primary.orange {
+  background-color: #FFF9EA;
+  color: #FF9A43;
+}
+button[disabled] {
+  background-color: #E9E9E9;
+  color: #093030;
+  border-radius: 25px;
+  border: none;
+}
+button[disabled]:active {
+  opacity: #E9E9E9;
+}
+page {
+  color: #093030;
+}
+.is-input-border.is-focused {
+  border-color: #00D09E !important;
+}
+.uni-forms-item__label {
+  color: #212121;
+}
+.uni-row {
+  position: relative;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.uni-row::before,
+.uni-row::after {
+  display: table;
+  content: "";
+}
+.uni-row::after {
+  clear: both;
+}
+.uni-row--flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.uni-row--flex:before, .uni-row--flex:after {
+  display: none;
+}
+.uni-row--flex-justify-center {
+  justify-content: center;
+}
+.uni-row--flex-justify-end {
+  justify-content: flex-end;
+}
+.uni-row--flex-justify-space-between {
+  justify-content: space-between;
+}
+.uni-row--flex-justify-space-around {
+  justify-content: space-around;
+}
+.uni-row--flex-align-middle {
+  align-items: center;
+}
+.uni-row--flex-align-bottom {
+  align-items: flex-end;
+}
+:host {
+  display: block;
+}

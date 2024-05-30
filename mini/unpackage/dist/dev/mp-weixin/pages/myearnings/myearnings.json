@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "微游-推广助手",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-col": "../../uni_modules/uni-row/components/uni-col/uni-col",
+    "uni-row": "../../uni_modules/uni-row/components/uni-row/uni-row",
+    "uni-th": "../../uni_modules/uni-table/components/uni-th/uni-th",
+    "uni-tr": "../../uni_modules/uni-table/components/uni-tr/uni-tr",
+    "g-collapse-text": "../../components/g-collapse-text/index",
+    "uni-td": "../../uni_modules/uni-table/components/uni-td/uni-td",
+    "uni-table": "../../uni_modules/uni-table/components/uni-table/uni-table",
+    "g-tabbar": "../../components/g-tabbar/index",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging"
+  }
+}
